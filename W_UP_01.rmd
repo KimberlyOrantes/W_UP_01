@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
 author: "Kimberly Orantes"
-date: "fall 2020"
+date: "Fall 2021"
 output: html_document
 ---
 
@@ -30,7 +30,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
-
+I will be using Numerical-Categorical method.  
+  
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
@@ -41,6 +42,12 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+From the graph we can see that overall the skill players can do more push ups than line players. There are some players in each positions that can do the same amount of push ups. The median of the skill players is about 50 push ups while the line players have a median of 10 push ups.    
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
