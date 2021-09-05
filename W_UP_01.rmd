@@ -66,7 +66,7 @@ The average of the skill players and line players differs a significant amount. 
 t.test(pushups~position,data=mydata)
 ```
   
-The p-value is 9.421e-06 or 0.000009421. Since the p-value is such a low number then that means that the null hypothesis will be rejected. Aside from the p-value we can see that the average number of push ups done by a line player is much lower than the average number of push ups done by a skill player. Therefor the correct hypothesis would be: $H_A$: The average number of pushups done by line players is statistically different than that of skill players.  
+The p-value is 9.421e-06 or 0.000009421. Since the p-value is such a low number then that means that the null hypothesis will be rejected because there is a low probablilty of the null hypothesis to be correct, a 0.000009421% to be exact. Aside from the p-value we can see that the average number of push ups done by a line player is much lower than the average number of push ups done by a skill player. Therefor the correct hypothesis would be: $H_A$: The average number of pushups done by line players is statistically different than that of skill players.  
   
 # Discussion and Conclusion
 
