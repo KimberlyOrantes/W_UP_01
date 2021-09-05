@@ -30,7 +30,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
-I will be using Numerical-Categorical method.  
+I will be using variable analysis, descriptive analysis, and inferential analysis.  
   
 # Results
 
@@ -46,7 +46,7 @@ I will be using Numerical-Categorical method.
 boxplot(pushups~position,data=mydata)
 ```
 
-From the graph we can see that overall the skill players can do more push ups than line players. There are some players in each positions that can do the same amount of push ups. The median of the skill players is about 50 push ups while the line players have a median of 15 push ups.    
+From the Line v. Skill graph we can see that overall the skill players can do more push ups than line players. There are some players in each positions that can do the same amount of push ups. The median of the skill players is about 50 push ups while the line players have a median of 15 push ups.    
   
 ### Numerical Descriptive Results
 
@@ -66,10 +66,11 @@ The average of the skill players and line players differs a significant amount. 
 t.test(pushups~position,data=mydata)
 ```
   
-The p-value is 9.421e-06 or 0.000009421. Since the p-value is such a low number then that means that the null hypothesis will be rejected because there is a low probablilty of the null hypothesis to be correct, a 0.000009421% to be exact. Aside from the p-value we can see that the average number of push ups done by a line player is much lower than the average number of push ups done by a skill player. Therefor the correct hypothesis would be: $H_A$: The average number of pushups done by line players is statistically different than that of skill players.  
+The p-value is 9.421e-06 or 0.000009421. Since the p-value is such a low number then that means that the null hypothesis will be rejected because there is a low probability of the null hypothesis to be correct, a 0.000009421% to be exact. Aside from the p-value we can see that the average number of push ups done by a line player is much lower than the average number of push ups done by a skill player. Therefor the correct hypothesis would be: $H_A$: The average number of pushups done by line players is statistically different than that of skill players.  
   
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+Upon conducting a variable analysis it was concluded that the numerical by categorical helper should be used to conduct the different analysis presented above. After using descriptive analysis to get graphical and numerical results and using inferential analysis to get an inferential result, we can see there is a statistical difference between the average number of push ups done by a line player and the average number of push ups done by a skill player. From the graphical results we can see that the skill players can do more push ups than the line players and the median of both boxplots have a significance difference. When examining the numerical results we can see that the mean or average of each position is different. The inferential result confirms that the null hypothesis is incorrect because the p-value is low. There is a relationship between the position of the player, their weight, and the amount of push ups they can do. The line players who require high body mass have a greater weight than the skill players and because of their position they can do less push ups than the skill players. The skill players who require a lot of running around tend to have a lower weight than the line players and can do a lot more push ups as a result.  
+  
